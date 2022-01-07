@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
+import {Example} from "./example/CustomRadioButtons";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
@@ -22,6 +23,7 @@ export const App = () => (
           <Text>
             Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
           </Text>
+          <Example/>
           <Link
             color="teal.500"
             href="https://chakra-ui.com"
